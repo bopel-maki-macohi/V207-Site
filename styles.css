@@ -11,15 +11,21 @@ body {
 }
 
 #pink {
-	color: var(--pink);
+  color: var(--pink);
 }
 
 .center {
   align-items: center;
-  text-align: center; 
+  text-align: center;
   justify-content: center;
 }
 
 .no_linebreaks {
   display: ruby-text;
+}
+
+
+#dummySection {
+  border-style: solid;
+  border-color: var(--pink);
 }
