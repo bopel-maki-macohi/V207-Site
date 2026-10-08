@@ -1,0 +1,25 @@
+:root {
+  --pink: #ff89dc;
+}
+
+body {
+  background-color: black;
+  color: white;
+
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#pink {
+	color: var(--pink);
+}
+
+.center {
+  align-items: center;
+  text-align: center; 
+  justify-content: center;
+}
+
+.no_linebreaks {
+  display: ruby-text;
+}
